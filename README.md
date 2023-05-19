@@ -1,0 +1,1 @@
+# spring-amqp-testing-issue
