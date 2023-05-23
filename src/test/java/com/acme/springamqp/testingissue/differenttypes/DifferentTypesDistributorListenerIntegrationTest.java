@@ -1,9 +1,9 @@
 package com.acme.springamqp.testingissue.differenttypes;
 
-import com.acme.springamqp.testingissue.config.DefaultContainerFactoryConfig;
-import com.acme.springamqp.testingissue.config.MessageConverterBeans;
 import com.acme.springamqp.testingissue.RabbitMqTestContainer;
 import com.acme.springamqp.testingissue.RabbitTemplateTestBeans;
+import com.acme.springamqp.testingissue.config.DefaultContainerFactoryConfig;
+import com.acme.springamqp.testingissue.config.MessageConverterBeans;
 import com.acme.springamqp.testingissue.differenttypes.config.DifferentTypesConfig;
 import com.acme.springamqp.testingissue.differenttypes.model.SimpleMessage;
 import org.junit.jupiter.api.Test;

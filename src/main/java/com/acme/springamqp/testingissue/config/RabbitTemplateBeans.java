@@ -1,6 +1,5 @@
 package com.acme.springamqp.testingissue.config;
 
-import com.acme.springamqp.testingissue.config.MessageConverterBeans;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;

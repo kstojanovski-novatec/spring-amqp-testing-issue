@@ -25,3 +25,14 @@ services:
 The test-container tests where classes with @RabbitListener and @RabbitHandler are used cause trouble by throwing AmqpException (`Caused by: org.springframework.amqp.AmqpException: Ambiguous methods for payload type`).
 
 It this the expected behaviour, and if yes how those classes can be tested?
+
+***
+
+Issue was created under: https://github.com/spring-projects/spring-amqp/issues/2456
+
+## Solution
+
+The issue was solved with: https://github.com/spring-projects/spring-amqp/pull/2457.
+
+The fix will be part of the Spring AMQP version 3.0.5 which is planned to be released of June 19, 2023.
+https://github.com/spring-projects/spring-amqp/milestone/210

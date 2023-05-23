@@ -12,6 +12,7 @@ import org.springframework.stereotype.Service;
 @Service
 @PropertySource("classpath:different-types.properties")
 @RabbitListener(
+    id="message-types",
     queues = {"${different.types.queue.name.message-types}"},
     containerFactory = "defaultContainerFactory",
     messageConverter = "jackson2Converter"
